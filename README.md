@@ -84,8 +84,8 @@ ___
 ### *Test-cases*
 
 <p align="center">  
-<img title="Allure Tests" src="images/screen/evolvingwebtestcases.jpg" width="850">  
-<img title="Allure Tests" src="images/screen/evolvingwebdataoftestcases.jpg" width="850">  
+<img title="Allure Tests" src="images/screen/vantagetestcases.jpg" width="850">  
+<img title="Allure Tests" src="images/screen/vantagedataoftestcases.jpg" width="850">  
 </p>
 
 ### *Graphics*
@@ -101,6 +101,6 @@ ____
 ## <img alt="Selenoid" height="25" src="images/logo/Selenoid.svg" width="25"/></a> Video of launched automated tests
 ____
 <p align="center">
-<img title="Selenoid Video" src="images/video/evolvingweb.gif" width="550" height="350"  alt="video">   
+<img title="Selenoid Video" src="images/video/vantage.gif" width="550" height="350"  alt="video">   
 </p>
 
