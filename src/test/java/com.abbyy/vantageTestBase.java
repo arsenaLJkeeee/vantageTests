@@ -15,7 +15,7 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 public class vantageTestBase {
     @BeforeAll
     static void beforeAll() {
-        Configuration.baseUrl = "https://slotegrator.pro/";
+        Configuration.baseUrl = "https://www.abbyy.com/vantage/";
         Configuration.browserSize = "1920x1080";
         Configuration.holdBrowserOpen = true;
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
