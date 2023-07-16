@@ -77,7 +77,7 @@ public class vantageTests extends vantageTestBase{
                     .setValue("arsenaljkeeee10@gmail.com");
             $("#email-f1933e9f-c6d9-4c86-a8ec-6c376b31a77d")
                     .shouldBe(visible, Duration.ofSeconds(2))
-                    .setValue("arsenaljkeeee10@gmail.com");
+                    .setValue("testingemail@vladimirborchevskiy.com");
             $("#phone-f1933e9f-c6d9-4c86-a8ec-6c376b31a77d")
                     .shouldBe(visible, Duration.ofSeconds(2))
                     .setValue("+995597078392");
