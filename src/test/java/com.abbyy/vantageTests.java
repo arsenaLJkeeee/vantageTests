@@ -16,7 +16,7 @@ import static io.qameta.allure.Allure.step;
 public class vantageTests extends vantageTestBase{
     @Tag("remote")
     @Test
-    void smokeSlotegratorMainPageTest() {
+    void smokeVantageMainPageTest() {
 
 
         SelenideLogger.addListener("allure", new AllureSelenide());
@@ -81,6 +81,9 @@ public class vantageTests extends vantageTestBase{
             $("#phone-f1933e9f-c6d9-4c86-a8ec-6c376b31a77d")
                     .shouldBe(visible, Duration.ofSeconds(2))
                     .setValue("+995597078392");
+            $("#company-f1933e9f-c6d9-4c86-a8ec-6c376b31a77d")
+                    .shouldBe(visible, Duration.ofSeconds(2))
+                    .setValue("WouldLikeToWorkInABBYYatVantageProject@gmail.com");
             $("#label-projectdescriptiontemp-f1933e9f-c6d9-4c86-a8ec-6c376b31a77d\n")
                     .shouldBe(visible, Duration.ofSeconds(2))
                     .setValue("Hello, i'm Vladimir, Quality Assurance Engineer with a demonstrated history of working in software product-based companies, and i inspired by ABBYY and would like to assure an outstanding quality in Vantage, lets have an interview!");
