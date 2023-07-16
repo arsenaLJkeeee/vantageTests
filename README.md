@@ -1,7 +1,7 @@
 
-# QA Auto project for [Evolving Web](https://evolvingweb.com/)
+# QA Auto project (Vantage) for [ABBYY](https://www.abbyy.com/vantage/)
 
-> Evolving Web Evolving Web is a Montreal-based team of Drupal experts. They provide consulting, development, and training services to guide their clients to success.
+> ABBYY Intelligent Process Automation combines process mining with Intelligent Document Processing to help you transform enterprise data and get the insights you need to improve process efficiency and effectiveness.
 
 ## **Contains:**
 ____
