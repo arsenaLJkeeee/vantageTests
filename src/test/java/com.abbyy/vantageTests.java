@@ -88,8 +88,8 @@ public class vantageTests extends vantageTestBase{
                     .shouldBe(visible, Duration.ofSeconds(2))
                     .click();
 
-            actions().moveToElement($("#projectdescriptiontemp-f1933e9f-c6d9-4c86-a8ec-6c376b31a77d")).click().perform();
-            $("#projectdescriptiontemp-f1933e9f-c6d9-4c86-a8ec-6c376b31a77d").shouldBe(visible).setValue("Hello, i'm Vladimir, Quality Assurance Engineer with a demonstrated history of working in software product-based companies, and i inspired by ABBYY and would like to assure an outstanding quality in Vantage, lets have an interview!");
+            executeJavaScript("arguments[0].click();", $("#label-projectdescriptiontemp-f1933e9f-c6d9-4c86-a8ec-6c376b31a77d").getWrappedElement());
+            executeJavaScript("arguments[0].value = 'Hello, i'm Vladimir, Quality Assurance Engineer with a demonstrated history of working in software product-based companies, and i inspired by ABBYY and would like to assure an outstanding quality in Vantage, lets have an interview!';", $("#projectdescriptiontemp-f1933e9f-c6d9-4c86-a8ec-6c376b31a77d").getWrappedElement());
         });
 
         sleep(50000);
